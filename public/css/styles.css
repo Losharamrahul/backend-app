@@ -27,3 +27,11 @@
     background-color: blueviolet    ;
     text-align: center;
 }
+ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    text-size-adjust: 100%;
+    
+    
+}

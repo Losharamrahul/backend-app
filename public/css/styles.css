@@ -1,7 +1,7 @@
 *{
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     margin: 0;
-    padding: 0;
+    padding: 0; 
     
 
 }
@@ -19,19 +19,25 @@
 }
 
 .header {
-    background-color: blueviolet;
-   
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+    color: white;
+    padding: 10px;
+    
 }
+
+
+.header li{
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+
 .footer {
     background-color: blueviolet    ;
+    padding: 30px;
     text-align: center;
-}
-ul li{
-    display: inline-block;
-    list-style: none;
-    padding: 10px;
-    text-size-adjust: 100%;
-    
-    
+    color: white;
 }

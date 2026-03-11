@@ -1,9 +1,22 @@
 *{
-    /* box-sizing: border-box; */
-    margin: 0;
-    padding: 0; 
-    
+    margin:0px
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: teal;
+    color:white;
+    padding:10px
+}
 
+.header li{
+    display: inline-block;
+    padding: 5px;
+    font-size: 20px;
+}
+.footer{
+    background-color: silver;
+    padding: 5px;
 }
 .row {
     display: flex;
@@ -16,28 +29,4 @@
     border:1px solid gray;
     border-radius: 5px;
     
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    background-color: cadetblue;
-    color: white;
-    padding: 10px;
-    
-}
-
-
-.header li{
-    display: inline-block;
-    padding: 5px;
-    font-size: 20px;
-    
-}
-
-.footer {
-    background-color: blueviolet    ;
-    padding: 30px;
-    text-align: center;
-    color: white;
 }
